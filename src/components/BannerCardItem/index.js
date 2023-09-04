@@ -2,7 +2,8 @@
 import './index.css'
 
 const Banner = props => {
-  const {className, headerText, description} = props
+  const {bannerdet}=props
+  const {className, headerText, description} = bannerdet
   return (
     <li className={`${className}`}>
       <h1 className="head">{headerText}</h1>
