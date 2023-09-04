@@ -19,6 +19,16 @@
 }
 
 /* Write your code here. */
+.card {
+  padding: 9px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px 0px gray;
+}
+.align {
+  align-self: flex-start;
+}
+
 
 .head {
   color: #326a9d;
